@@ -1,0 +1,75 @@
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+          background: rgb(255, 255, 255);
+          background: -moz-linear-gradient(0deg, rgba(255, 255, 255, 1) 34%, rgba(0, 206, 255, 1) 100%);
+          background: -webkit-linear-gradient(0deg, rgba(255, 255, 255, 1) 34%, rgba(0, 206, 255, 1) 100%);
+          background: linear-gradient(0deg, rgba(255, 255, 255, 1) 34%, rgba(0, 206, 255, 1) 100%);
+          filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#00ceff", GradientType=1);
+        }
+
+        header {
+          display: flex;
+          align-items: center;
+          padding: 10px 1% 0 0;
+          justify-content: space-between;
+        }
+
+        .menu {
+          right: 0;
+          padding: 20px;
+          padding-bottom: 50px;
+          margin-left: 55%;
+        }
+
+        .name {
+          font-family: rog;
+          font-size: 55px;
+          padding-bottom: 33px;
+          font-weight: 330;
+          color: white;
+        }
+
+        .logo {
+          padding-right: 0px;
+          tit
+        }
+        .logo:hover{
+          title:"Home"
+        }
+
+        .parag {
+          font-family: sans-serif;
+          margin: 0 90px;
+          background-color: gray;
+        }
+
+        .nav {
+          width: 30px;
+          display: block;
+          margin: 1em 0 0 1em;
+        }
+
+        .nav div {
+          height: 4px;
+          background-color: white;
+          margin: 5px 0;
+          border-radius: 25px;
+        }
+
+        .one {
+          width: 30px;
+        }
+
+        .two {
+          width: 20px;
+        }
+
+        .three {
+          width: 25px;
+        }

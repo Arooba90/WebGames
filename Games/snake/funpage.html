@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2GC86H6BZ8"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-2GC86H6BZ8');
+    </script>
+    <meta charset="utf-8">
+    <title>Snake Game</title>
+    <link rel="icon" type="image/x-icon" href="assets/imgs/logooo.ico">
+    <!-- bootstrap & css -->
+
+    <style>
+
+        .grad{
+   
+            background:  #4666ab;
+
+        }
+        @font-face {
+            src: url(assets/fonts/rog.ttf);
+            font-family: rog;
+        }
+        
+        canvas {
+            top: 10%;
+            left: inherit;
+            display: block;
+            margin: 0 auto;
+            box-shadow: #1e325c 20px 20px 30px;
+            margin-top: 10px;
+            position: absolute;
+            left : 50%;
+            transform: translateX(-304px);
+        }
+        
+        #margin-navbar {
+            margin-top: 13%;
+        }
+    </style>
+</head>
+
+<body class="grad">
+   
+    <!-- Page Content -->
+    <div id="margin-navbar" class="container">
+        <canvas id="snakeGame" width="608" height="608"></canvas>
+        <script src="assets/js/snake.js"></script>
+    </div>
+
+
+    <br/>
+    <br/>
+    <br/>
+</body>
+<footer>
+  
+</footer>
+
+</html>
